@@ -16,4 +16,33 @@ html:root{
     --button:#4b4b4b;
     --validation: #4ac800
 }
+
+body{
+    background-color: var(--darker);
+    font-family: Arial, Helvetica, sans-serif
+}
 /*#endregion general */
+
+#app-header {
+    margin: 1px 0;
+    position: sticky;
+    min-width: 190px;
+}
+
+#app-header .buttons {
+    text-align: end;
+}
+#app-header .buttons span {
+    color: white;
+    background-color: var(--button);
+    margin: 0 0.3rem;
+    padding: 0.3rem 0.4rem;
+    line-height: 2.5rem;
+    border-radius: 0.40rem;
+    font-weight: 500;
+}
+
+#app-header .buttons span:hover{
+    cursor: pointer;
+    font-size: 18px;
+}
