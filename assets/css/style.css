@@ -126,3 +126,12 @@ body{
 #share-screen {
     color: var(--validation);
 }
+
+#end-meeting {
+    color: var(--alert);
+    background-color: var(--button);
+    padding:1px 5px;
+    line-height: 2rem;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
