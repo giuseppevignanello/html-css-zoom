@@ -78,6 +78,11 @@ body{
     padding: 0 2px;
 }
 
+#app-main .user:active img{
+    width: 270px;
+    height: 180px;
+}
+
 
 #app-main .user-name {
     color: white;
