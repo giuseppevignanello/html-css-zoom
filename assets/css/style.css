@@ -14,7 +14,7 @@ html:root{
     --dark: #222222;
     --alert: #be2b25;
     --button:#4b4b4b;
-    --validation: #4ac800
+    --validation: #4ac800;
 }
 
 body{
@@ -85,35 +85,44 @@ body{
 /*#endregion main */
 
 #app-footer {
-    background-color: pink;
+    background-color: var(--dark);
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     padding: 0.5rem;
+    justify-content: space-between;
 }
 
 #app-footer li{
     list-style: none;
 }
- #app-footer .audio {
+ #app-footer .footer-box {
     font-size: 1rem;
     color: white;
     margin-right: 0.5rem;
+    text-align: center;
 }
 
- #app-footer .audio .icon{
+ #app-footer .icon{
     font-size: 1.5rem;
+    
+}
+
+#app-footer .icon:not(#share-screen){
     color: white;
 }
-
-#app-footer .audio .text{
+#app-footer .text{
     font-size: 0.6rem;
     color: white;
     display: block;
 }
 
-#app-footer .audio .chevron {
+#app-footer .chevron {
     font-size: 0.7rem;
     color: white;
+}
+
+#share-screen {
+    color: var(--validation);
 }
