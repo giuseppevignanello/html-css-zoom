@@ -82,4 +82,38 @@ body{
     padding: 3px;
     background-color: rgba(128, 128, 128, 0.819);
 }
-#endregion main
+/*#endregion main */
+
+#app-footer {
+    background-color: pink;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+}
+
+#app-footer li{
+    list-style: none;
+}
+ #app-footer .audio {
+    font-size: 1rem;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+ #app-footer .audio .icon{
+    font-size: 1.5rem;
+    color: white;
+}
+
+#app-footer .audio .text{
+    font-size: 0.6rem;
+    color: white;
+    display: block;
+}
+
+#app-footer .audio .chevron {
+    font-size: 0.7rem;
+    color: white;
+}
