@@ -1,0 +1,19 @@
+/*#region general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html:root{
+    --darker: #000000;
+    --dark: #222222;
+    --alert: #be2b25;
+    --button:#4b4b4b;
+    --validation: #4ac800
+}
+/*#endregion general */
