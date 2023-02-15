@@ -42,7 +42,7 @@ body{
 
 /*#region header */
 #app-header {
-    margin: 1px 0;
+    margin: 1rem 0;
     position: sticky;
     top: 0;
     left: 0;
@@ -50,6 +50,8 @@ body{
     background-color: var(--darker);
     z-index: 10000;
 }
+
+
 
 #app-header .buttons {
     text-align: end;
@@ -78,7 +80,7 @@ body{
     padding: 0 2px;
 }
 
-#app-main .user:active img{
+#app-main .user.user:active img{
     width: 270px;
     height: 180px;
 }
